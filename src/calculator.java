@@ -18,7 +18,10 @@ public class calculator {
             case 1:
                 System.out.println("Addition  of " + num1 + " and " + num2 + " is " + (num1 + num2));
                 break;
-            default:
+            case 2:
+                System.out.println("Subtrction of" +num1 +"and" +num2 +"is" +(num1-num2));
+                break;
+                default:
                 System.out.println("invalid");
         }
 
